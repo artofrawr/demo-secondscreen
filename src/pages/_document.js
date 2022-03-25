@@ -36,7 +36,7 @@ class MyDocument extends Document {
           <meta property="og:site_name" content="The Art of Rawr" />
           <meta
             property="og:description"
-            content="A second screen demo, implemented in Next.js and socket.io. The Art of Rawr is the digital playground of NYC based full stack developer Jens Fischer."
+            content="A second screen demo, implemented in Next.js and socket.io. The 'Art of Rawr' is the digital playground of NYC based tech lead and full stack developer Jens Fischer."
           />
         </Head>
         <body>
