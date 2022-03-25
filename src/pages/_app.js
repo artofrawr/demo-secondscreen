@@ -11,6 +11,7 @@ const App = ({ Component, pageProps }) => (
       width="100%"
       maxWidth="800px"
       mx="auto"
+      px="20px"
       display="flex"
       alignItems="center"
       flexDirection="column"

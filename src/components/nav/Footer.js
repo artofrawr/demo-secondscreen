@@ -16,10 +16,16 @@ const Footer = () => {
       lineHeight="80px"
       display="flex"
       alignItems="center"
-      justifyContent="space-between"
+      justifyContent={{ base: 'flex-end', md: 'space-between' }}
       px="20px"
+      overflow="hidden"
     >
-      <Text as="h1" fontWeight={500} fontSize="16px">
+      <Text
+        as="h1"
+        fontWeight={500}
+        fontSize="16px"
+        display={{ base: 'none', md: 'block' }}
+      >
         A second screen demo, implemented with Next.js and socket.io.
       </Text>
       <Box display="flex" flexDirection="row">
